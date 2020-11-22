@@ -1,0 +1,341 @@
+/* General  */
+html,
+body {
+  width: 100%;
+}
+
+body {
+  margin-top: 7vh;
+}
+
+/* Navigation Bar */
+.navibar {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav a {
+  font-size: 1.3em;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.glyphicon {
+  margin-right: 0.5em !important;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Page header section */
+.jumbotron {
+  background: transparent;
+}
+
+.jumbotron h2 {
+  color: rgba(250, 200, 90, 0.9);
+  text-shadow: 1px 1px 0px #000, 1px 1px 0px #fd0;
+}
+.jumbotron h3 {
+  text-shadow: 1px 1px 2px #000, 1px 2px 2px #000;
+}
+
+.page-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  opacity: 0.8;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.row.social {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Portfolio background (office)*/
+.header {
+  color: #fff;
+  background: transparent url("https://images2.imgbox.com/c6/93/WBMZz479_o.jpg")
+    no-repeat fixed center center / cover;
+  height: 100vh !important;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* About section title */
+.header h3 {
+  padding: 0 1em;
+}
+
+/* Dark but semi-transparent slide style to facilitate reading */
+.backgrnd {
+  background: rgba(0, 0, 0, 0.65);
+  height: 120vh;
+}
+
+/* About section photo */
+.img-circle {
+  margin-top: 0.5em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Social buttons */
+.social {
+  width: 100%;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.social > .btn,
+.btn-lg {
+  margin: 5px;
+  color: #000;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  transition: all 0.2s ease 0s;
+}
+
+/* Body of about section mountains background*/
+.header2 {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  color: #fff;
+  background: transparent url("https://images2.imgbox.com/94/37/TtqkEq7t_o.jpg")
+    no-repeat fixed center center / cover;
+  height: 850px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.header2 h2 {
+  padding-left: 20px;
+}
+
+.lead {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.7;
+}
+
+.lead a {
+  font-weight: bold;
+  color: rgb(248, 245, 6) !important;
+  background-color: transparent;
+}
+
+blockquote footer {
+  color: rgb(248, 245, 6);
+  background-color: transparent;
+}
+
+/* Portfolio section  frozen forest background*/
+.header3 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  color: rgba(250, 200, 90, 0.9);
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #000, 1px 1px 0px #fd0;
+  background: transparent url("https://images2.imgbox.com/ed/50/D0iajzRU_o.jpg")
+    no-repeat fixed center center / cover;
+  height: 220vh;
+}
+
+.portfolio {
+  margin: 0 0 100px 0;
+}
+
+#note {
+  color: #fff;
+  background: grey;
+  width: 26%;
+  margin: 1rem auto;
+  border: 1px solid ;
+  border-radius: 15%;
+  padding: 0.5rem;
+  text-shadow: 0 0 0;
+}
+
+.header3 h4,
+h5 {
+  color: #fff;
+  font-weight: 700;
+  text-shadow: 1px 1px 0px #000, 1px 1px 0px #000;
+}
+
+/* Contact Me section  blue sky background*/
+.header4 {
+  background: transparent url("https://images2.imgbox.com/b7/61/buh7aTIh_o.jpg")
+    no-repeat fixed center center / cover;
+  height: 50vh;
+}
+
+.header4 .row {
+  color: rgb(248, 245, 6) !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9), 1px -1px 0px rgba(0, 0, 0, 0.2);
+  width: 85%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#mail {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: rgb(248, 245, 6) !important;
+  background-color: red;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000, 1px -1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+#center {
+  position: relative;
+  top: 5vh;
+}
+
+/* Page footer */
+footer {
+  background-color: #ccc;
+  padding-top: 2em;
+  padding-bottom: 8em;
+  padding-left: 4em;
+  height: 30vh;
+}
+
+#copy {
+  position: relative !important;
+  left: -1.5em;
+}
+
+.btn {
+  width: 11em !important;
+}
+
+.nav a {
+  color: #000 !important;
+}
+
+
+@media (max-width: 1200px) {
+  .btn {
+    width: 11em !important;
+  }
+
+  .social {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .social > .btn,
+  .btn-lg {
+    display: block;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+  .social {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .backgrnd {
+    height: 250vh;
+  }
+  .header {
+    height: 120vh !important;
+  }
+
+  .header2 {
+    height: 1250px;
+  }
+
+  #welcome {
+    display: none !important;
+  }
+
+  #about {
+    height: 150vh !important;
+  }
+
+  .header4 h2 {
+    font-size: 1.5em;
+  }
+
+  #mail {
+    font-size: 1em !important;
+  }
+
+  #center {
+    position: relative;
+    top: 5vh;
+    display: flex !important;
+    justify-content: space-around;
+  }
+
+  footer {
+    height: 50vh;
+  }
+
+  .nav a {
+    font-size: 1.3em;
+  }
+  .glyphicon {
+    margin-right: 0.5em !important;
+  }
+  #note {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #note {
+    width: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  #mail {
+    font-size: 1em !important;
+  }
+  #welcome {
+    display: none !important;
+  }
+  #about {
+    height: 150vh !important;
+  }
+
+  .header2 {
+    height: 1250px;
+  }
+
+  .header4 h2 {
+    font-size: 1.5em;
+  }
+
+  footer {
+    height: 50vh;
+  }
+  .nav a {
+    font-size: 1.3em;
+  }
+  .glyphicon {
+    margin-right: 0.5em !important;
+  }
+}
