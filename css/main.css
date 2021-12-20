@@ -77,7 +77,6 @@ body {
 /* Dark but semi-transparent slide style to facilitate reading */
 .backgrnd {
   background: rgba(0, 0, 0, 0.65);
-  height: 120vh;
 }
 
 /* About section photo */
@@ -90,6 +89,7 @@ body {
 /* Social buttons */
 .social {
   width: 100%;
+  height: auto;
   text-align: center !important;
   display: flex !important;
   flex-direction: row;
@@ -115,6 +115,7 @@ body {
     no-repeat fixed center center / cover;
   height: 850px;
   text-shadow: 1px 1px 1px #000;
+  position: relative;
 }
 
 .header2 h2 {
@@ -147,7 +148,7 @@ blockquote footer {
   text-shadow: 1px 1px 0px #000, 1px 1px 0px #fd0;
   background: transparent url("https://images2.imgbox.com/ed/50/D0iajzRU_o.jpg")
     no-repeat fixed center center / cover;
-  height: 220vh;
+  height: 220%;
 }
 
 .portfolio {
@@ -159,7 +160,7 @@ blockquote footer {
   background: grey;
   width: 26%;
   margin: 1rem auto;
-  border: 1px solid ;
+  border: 1px solid;
   border-radius: 15%;
   padding: 0.5rem;
   text-shadow: 0 0 0;
@@ -225,22 +226,20 @@ footer {
 }
 
 .btn {
-  width: 11em !important;
+  width: 15vw !important;
 }
 
 .nav a {
   color: #000 !important;
 }
 
-
 @media (max-width: 1200px) {
   .btn {
-    width: 11em !important;
+    width: 15vw !important;
   }
 
   .social {
     justify-content: center;
-    flex-direction: column;
   }
 }
 
@@ -248,15 +247,16 @@ footer {
   .social > .btn,
   .btn-lg {
     display: block;
-    max-width: 300px;
+    max-width: 15vw;
     margin: 10px auto;
   }
   .social {
     justify-content: center;
     flex-direction: column;
   }
+  
   .backgrnd {
-    height: 250vh;
+    height: 260vh;
   }
   .header {
     height: 120vh !important;
@@ -304,13 +304,25 @@ footer {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   #note {
     width: 50%;
   }
 }
 
 @media (max-width: 479px) {
+  
+  h1 {
+    margin-top: 5rem;
+  }
+    .container-fluid .backgrnd {
+    height: 160%;
+    z-index: 1000;
+  }
+  #projects {
+    position: relative;
+    top: 4rem;
+  }
   #mail {
     font-size: 1em !important;
   }
@@ -323,6 +335,11 @@ footer {
 
   .header2 {
     height: 1250px;
+  }
+  
+    .header4 {
+    position: relative;
+      top: 3.5rem;
   }
 
   .header4 h2 {
