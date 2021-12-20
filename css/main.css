@@ -226,7 +226,7 @@ footer {
 }
 
 .btn {
-  width: 15vw !important;
+  width: 11em !important;
 }
 
 .nav a {
@@ -235,7 +235,7 @@ footer {
 
 @media (max-width: 1200px) {
   .btn {
-    width: 15vw !important;
+    width: 11em !important;
   }
 
   .social {
