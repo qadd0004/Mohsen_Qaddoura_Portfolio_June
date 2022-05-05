@@ -238,6 +238,10 @@ footer {
   height: 175px;
 }
 
+#win {
+  color: red;
+}
+
 
 @media (max-width: 1200px) {
   .btn {
