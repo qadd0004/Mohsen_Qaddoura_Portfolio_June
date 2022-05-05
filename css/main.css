@@ -233,6 +233,12 @@ footer {
   color: #000 !important;
 }
 
+#MovieDB {
+  width: 310px;
+  height: 175px;
+}
+
+
 @media (max-width: 1200px) {
   .btn {
     width: 11em !important;
@@ -243,10 +249,7 @@ footer {
   }
 }
 
-#MovieDB {
-  width: 310px;
-  height: 175px;
-}
+
 
 @media (max-width: 991px) {
   .social > .btn,
