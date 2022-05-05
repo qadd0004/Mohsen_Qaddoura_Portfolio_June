@@ -243,6 +243,11 @@ footer {
   }
 }
 
+#MovieDB {
+  width: 310px;
+  height: 175px;
+}
+
 @media (max-width: 991px) {
   .social > .btn,
   .btn-lg {
