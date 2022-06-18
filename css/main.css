@@ -25,15 +25,6 @@ body {
   margin-right: 0.5em !important;
 }
 
-#welcome-section {
-  height: 100vh;
-}
-
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
 /* Page header section */
 .jumbotron {
   background: transparent;
@@ -63,9 +54,9 @@ body {
 /* Portfolio background (office)*/
 .header {
   color: #fff;
-  background: transparent url("https://images2.imgbox.com/c6/93/WBMZz479_o.jpg")
-    no-repeat fixed center center / cover;
-  height: 100vh !important;
+  background: transparent
+    url("https://images2.imgbox.com/c6/93/WBMZz479_o.jpg") no-repeat
+    fixed center center / cover;
   text-shadow: 1px 1px 2px #000;
 }
 
@@ -76,7 +67,7 @@ body {
 
 /* Dark but semi-transparent slide style to facilitate reading */
 .backgrnd {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.35);
 }
 
 /* About section photo */
@@ -89,7 +80,6 @@ body {
 /* Social buttons */
 .social {
   width: 100%;
-  height: auto;
   text-align: center !important;
   display: flex !important;
   flex-direction: row;
@@ -111,9 +101,9 @@ body {
   padding-top: 50px;
   padding-bottom: 150px;
   color: #fff;
-  background: transparent url("https://images2.imgbox.com/94/37/TtqkEq7t_o.jpg")
-    no-repeat fixed center center / cover;
-  height: 850px;
+  background: transparent
+    url("https://images2.imgbox.com/94/37/TtqkEq7t_o.jpg") no-repeat
+    fixed center center / cover;
   text-shadow: 1px 1px 1px #000;
   position: relative;
 }
@@ -146,9 +136,9 @@ blockquote footer {
   color: rgba(250, 200, 90, 0.9);
   font-weight: 700;
   text-shadow: 1px 1px 0px #000, 1px 1px 0px #fd0;
-  background: transparent url("https://images2.imgbox.com/ed/50/D0iajzRU_o.jpg")
-    no-repeat fixed center center / cover;
-  height: 220%;
+  background: transparent
+    url("https://images2.imgbox.com/ed/50/D0iajzRU_o.jpg") no-repeat
+    fixed center center / cover;
 }
 
 .portfolio {
@@ -175,14 +165,16 @@ h5 {
 
 /* Contact Me section  blue sky background*/
 .header4 {
-  background: transparent url("https://images2.imgbox.com/b7/61/buh7aTIh_o.jpg")
-    no-repeat fixed center center / cover;
-  height: 50vh;
+  background: transparent
+    url("https://images2.imgbox.com/b7/61/buh7aTIh_o.jpg") no-repeat
+    fixed center center / cover;
+  padding-bottom: 2rem;
 }
 
 .header4 .row {
   color: rgb(248, 245, 6) !important;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9), 1px -1px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9),
+    1px -1px 0px rgba(0, 0, 0, 0.2);
   width: 85%;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -206,18 +198,18 @@ h5 {
   letter-spacing: 2px;
 }
 
-#center {
-  position: relative;
-  top: 5vh;
-}
-
 /* Page footer */
 footer {
   background-color: #ccc;
   padding-top: 2em;
-  padding-bottom: 8em;
+  padding-bottom: 4em;
   padding-left: 4em;
-  height: 30vh;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #copy {
@@ -233,15 +225,9 @@ footer {
   color: #000 !important;
 }
 
-#MovieDB {
-  width: 310px;
-  height: 175px;
-}
-
 #win {
   color: red;
 }
-
 
 @media (max-width: 1200px) {
   .btn {
@@ -253,9 +239,7 @@ footer {
   }
 }
 
-
-
-@media (max-width: 991px) {
+@media (max-width: 867px) {
   .social > .btn,
   .btn-lg {
     display: block;
@@ -265,24 +249,9 @@ footer {
     justify-content: center;
     flex-direction: column;
   }
-  
-  .backgrnd {
-    height: 260vh;
-  }
-  .header {
-    height: 120vh !important;
-  }
-
-  .header2 {
-    height: 1250px;
-  }
 
   #welcome {
     display: none !important;
-  }
-
-  #about {
-    height: 150vh !important;
   }
 
   .header4 h2 {
@@ -294,14 +263,8 @@ footer {
   }
 
   #center {
-    position: relative;
-    top: 5vh;
     display: flex !important;
-    justify-content: space-around;
-  }
-
-  footer {
-    height: 50vh;
+    flex-direction: column;
   }
 
   .nav a {
@@ -322,12 +285,10 @@ footer {
 }
 
 @media (max-width: 479px) {
-  
   h1 {
     margin-top: 5rem;
   }
-    .container-fluid .backgrnd {
-    height: 160%;
+  .container-fluid .backgrnd {
     z-index: 1000;
   }
   #projects {
@@ -340,26 +301,16 @@ footer {
   #welcome {
     display: none !important;
   }
-  #about {
-    height: 150vh !important;
-  }
 
-  .header2 {
-    height: 1250px;
-  }
-  
-    .header4 {
+  .header4 {
     position: relative;
-      top: 3.5rem;
+    top: 3.5rem;
   }
 
   .header4 h2 {
     font-size: 1.5em;
   }
 
-  footer {
-    height: 50vh;
-  }
   .nav a {
     font-size: 1.3em;
   }

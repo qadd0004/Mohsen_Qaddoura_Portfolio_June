@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Wikipedia Instant Viewer</title>
+    <link rel="stylesheet" href="./css/normailze.css" />
+    <link rel="stylesheet" href="./css/wikipedia.css" />
+    <script src="./js/prefixfree.js"></script>
+  </head>
+  <body>
+    <a href="#" id="top"></a>
+    <div class="container">
+      <h1>Wikipedia Viewer</h1>
+      <div>
+        <a
+          href="http://en.wikipedia.org/wiki/Special:Random"
+          target="_blank"
+        >
+          <div class="random">
+            <span>Stumble mode :</span><br /><span class="mark"
+              >*</span
+            >Click here for a random page
+          </div>
+        </a>
+        <span class="mark">* Opens in a new tab</span>
+      </div>
+
+      <div class="search">
+        <span>Or search for a specific subject :</span><br /><input
+          type="text"
+          name="searchBox"
+          placeholder="Enter your search terms here"
+          size="35"
+        />
+      </div>
+
+      <div id="article"></div>
+
+      <a href="#top" id="backTop">Back to top</a>
+      <div class="footer">
+        Copyright © Mohsen Qaddoura
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        . All Rights Reserved
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./js/wikipediaViewer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000, 1px -1px 0px rgba(0, 0, 0, 0.3);
+  background: #44bb66
+    url("https://images2.imgbox.com/bb/5a/JMjmsVsJ_o.jpg") no-repeat
+    fixed center center / cover;
+  min-height: 100vh;
+  margin: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.main {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2em;
+}
+
+h1,
+h2 {
+  margin: 0 0 0.8em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-header {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.main-header h1 {
+  font-family: cursive;
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+.main-header h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #3acec2;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info span {
+  display: block;
+}
+
+.detail,
+.temp span,
+button {
+  flex: 1 12em;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.2em 1.25em;
+  margin: 0.5em;
+  background: rgba(58, 205, 194, 0.5);
+  border-radius: 0.35em;
+}
+
+.wind {
+  line-height: 2.5em;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.temp span {
+  font-size: 1.8em;
+  color: yellow;
+  padding: 0.85em 2.25em;
+}
+
+.footer {
+  color: yellow;
+  padding: 2em 0;
+  margin-top: 2em;
+}
+
+@media only screen and (max-device-width: 480px) {
+  body {
+    background: #44bb66
+      url("https://images2.imgbox.com/bb/5a/JMjmsVsJ_o.jpg") no-repeat;
+    background-size: cover;
+  }
+  .detail,
+  .temp span {
+    flex: 1 19em;
+    margin: 0.75em;
+    width: 12em;
+  }
+  button {
+    margin-top: 1.5em;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=M, initial-scale=1.0" />
+    <title>Mini Calculator</title>
+    <link rel="stylesheet" href="./css/normailze.css" />
+    <link rel="stylesheet" href="./css/calculator.css">
+    <script src="./js/prefixfree.js"></script>
+  </head>
+  <body>
+    <!--
+This software is written for pure educational purposes only, and is not intended to replace professional software or physical calculators in any capacity.
+ 
+  Copyright (c) 20202 by Mohsen Qaddoura (https://mohsen-qaddoura.com)
+-->
+
+<div class="container">
+<div class="row">
+<table class="table">
+<thead>
+    <tr>
+    <th colspan="4">
+      	<div class="header">Mini Calculator</div>
+				<div class="screen text-right">0</div>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><div class="button del" name="ac" id="ac">AC</div></td>
+    <td><div class="button del" name="ce" id="ce">CE</div></td>
+    <td><div class="button del" name="left-arr" id="left-arr"><strong>&larr;</strong></div></td>
+    <td><div class="button function" name="÷"><strong>&divide;</strong></div></td>
+  </tr>					
+  <tr>
+    <td><div class="button calc-button" name="7">7</div></td>
+    <td><div class=" button calc-button" name="8">8</div></td>
+    <td><div class=" button calc-button" name="9">9</div></td>
+    <td><div class="button function" name="×">&times;</div></td>
+  </tr>
+  <tr>
+    <td><div class="button calc-button" name="4">4</div></td>
+    <td><div class=" button calc-button" name="5">5</div></td>
+    <td><div class="button calc-button" name="6">6</div></td>
+    <td><div class="button function" name="-"><strong>&minus;</strong></div></td>
+  </tr>
+  <tr>
+    <td><div class="button calc-button" name="1">1</div></td>
+    <td><div class="button calc-button" name="2">2</div></td>
+    <td><div class="button calc-button" name="3">3</div></td>
+    <td><div class="button function" name="+"><strong>&plus;</strong></div></td>
+  </tr>
+    <td><div class="button calc-button" name="."><strong>.</strong></div></td>
+    <td><div class="button calc-button" name="0">0</div></td>
+    <td><div class="button function" name="%">%</div></td>
+		<td><div class="button function" name="=" id="equal"><strong>=</strong></div></td>
+  </tr>
+	<tr><td><br></td></tr>
+   <tr><td colspan="6"> Copyright © Mohsen Qaddoura
+			<script>
+				document.write(new Date().getFullYear())
+			</script>. All Rights Reserved</td></tr>  
+  </tbody>
+</table>
+  </div>
+  </div><!-- end of calculator body -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./js/calculator.js"></script>
+  </body>
+</html>
